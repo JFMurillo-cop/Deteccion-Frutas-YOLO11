@@ -1,0 +1,16 @@
+path: C:/Users/juanf/Proyecto - Frutas/datos/archive/fruit
+train: train/images
+val: valid/images
+
+names:
+  0: manzana
+  1: mandarina
+  2: pera
+  3: sandia
+  4: durian
+  5: limon
+  6: uva
+  7: pina
+  8: pitahaya
+  9: melon_coreano
+  10: melon_cantaloup

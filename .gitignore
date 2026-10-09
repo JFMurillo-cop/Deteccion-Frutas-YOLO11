@@ -1,0 +1,24 @@
+# Entorno virtual (se recrea con requirements.txt)
+venv/
+.venv/
+
+# Dataset (unos 2 GB): se descarga desde Kaggle
+datos/
+
+# Modelos preentrenados que Ultralytics descarga solo (solo en la raiz del proyecto)
+/yolo11n.pt
+/yolo26n.pt
+/weights/
+
+# Pruebas anteriores y carpetas sobrantes
+runs_anterior/
+runs/detect/resultados_100_epocas_792/
+imagenes_extra_dataset/
+
+# Caches de Python y del editor
+__pycache__/
+*.pyc
+*.cache
+.vscode/
+.DS_Store
+Thumbs.db
